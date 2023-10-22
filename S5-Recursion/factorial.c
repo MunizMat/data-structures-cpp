@@ -7,9 +7,3 @@ int factorial(int n)
     else
         return 1;
 };
-
-int main()
-{
-    printf("%d\n", factorial(5));
-    return 0;
-};
