@@ -1,12 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// What do you want to do in this program?
-
-// Create a linked list and display it
-
-// Create linked list from array
-
 struct Node
 {
     int data;
@@ -42,7 +36,7 @@ void displayLinkedList(struct Node *first)
 {
     struct Node *currentNode = first;
 
-    while (currentNode->nextNode != NULL)
+    while (currentNode)
     {
         printf("%d\n", currentNode->data);
         currentNode = currentNode->nextNode;
